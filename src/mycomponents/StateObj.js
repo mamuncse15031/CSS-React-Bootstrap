@@ -18,9 +18,9 @@ class StateObj extends Component{
     render(){
 
         return <div>
-                <h1>{this.state.name}</h1>
-                <h1>{this.state.age}</h1>
-                <h1>{this.state.height}</h1>
+                <h1>Name: {this.state.name}</h1>
+                <h1>Age: {this.state.age}</h1>
+                <h1>Height: {this.state.height}</h1>
                 
             </div>
             }
