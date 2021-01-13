@@ -5,15 +5,15 @@ class StateObj extends Component{
     constructor(){
         super()
 
-        this.state={
+        var obj = {
             name: "Mamun",
             age: "28 years",
             height: "5 feet 11 inches"
 
         }
+        
+        this.state=obj;
     }
-
-
 
     render(){
 
