@@ -19,7 +19,7 @@ class StateObj extends Component{
 
         return <div>
                 <h1>Name: {this.state.name}</h1>
-                <h1>Age: {this.state.age}</h1>
+                <h1>Age: {this.state.age[2]}</h1>
                 <h1>Height: {this.state.height}</h1>
                 
             </div>
