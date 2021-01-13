@@ -10,7 +10,7 @@ function MyFun(){
 
     return(
 
-        <button className = "btn btn-primary m-5" onClick = {onclick}>Test Bootstrap</button>
+        <button className = "btn btn-dark m-5" onClick = {onclick}>Test Bootstrap</button>
     );
 }
 
