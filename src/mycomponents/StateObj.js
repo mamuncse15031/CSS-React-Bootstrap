@@ -7,11 +7,11 @@ class StateObj extends Component{
 
         var obj = {
             name: "Mamun",
-            age: "28 years",
+            age: ["28", "27", "30", "70"],
             height: "5 feet 11 inches"
 
         }
-        
+
         this.state=obj;
     }
 
