@@ -1,6 +1,7 @@
 import './App.css';
 import Welcome from './mycomponents/Welcome'
 import Arrow from './mycomponents/Arrow'
+import StateObj from './mycomponents/StateObj'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 
       <Welcome></Welcome>
       <Arrow></Arrow>
+      <StateObj></StateObj>
       
     </div>
   );
