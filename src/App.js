@@ -5,6 +5,7 @@ import StateObj from './mycomponents/StateObjClass'
 import SetStateClassCompo from './mycomponents/SetStateClassCompo';
 import Condition1Class from './mycomponents/Condition1Class'
 import Condition2ElementClass from './mycomponents/Condition2ElementClass'
+import Refresh from './mycomponents/Refresh'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <SetStateClassCompo></SetStateClassCompo>
       <Condition1Class></Condition1Class>
       <Condition2ElementClass></Condition2ElementClass>
+      <Refresh></Refresh>
       
     </div>
   );
