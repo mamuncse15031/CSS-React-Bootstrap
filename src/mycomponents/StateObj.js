@@ -8,7 +8,10 @@ class StateObj extends Component{
         var obj = {
             name: "Mamun",
             age: ["28", "27", "30", "70"],
-            height: "5 feet 11 inches"
+            height: {
+                Feet: "5",
+                Inch: "11"
+            }
 
         }
         this.state=obj;
@@ -19,7 +22,7 @@ class StateObj extends Component{
         return <div>
                 <h1>Name: {this.state.name}</h1>
                 <h1>Age: {this.state.age[2]}</h1>
-                <h1>Height: {this.state.height}</h1>
+                <h1>Height: {this.state.height.Feet}</h1>
                 
             </div>
             }
