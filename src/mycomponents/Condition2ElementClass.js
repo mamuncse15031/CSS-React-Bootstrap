@@ -11,7 +11,11 @@ class Condition2ElementClass extends Component{
     
     render(){
         return(
-            this.state.login? <button class="btn btn-primary m5">Logout</button> : <button class="btn btn-primary m-5">Login</button>
+            this.state.login? (
+            <button class="btn btn-primary m5">Logout</button>
+            ) : (
+            <button class="btn btn-primary m-5">Login</button>
+            )
         )
     }
 }
