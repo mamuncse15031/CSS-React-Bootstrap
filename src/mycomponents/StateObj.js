@@ -11,7 +11,6 @@ class StateObj extends Component{
             height: "5 feet 11 inches"
 
         }
-
         this.state=obj;
     }
 
