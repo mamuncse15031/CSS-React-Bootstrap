@@ -4,13 +4,13 @@ class Condition1Class extends Component{
     constructor(){
         super()
         this.state={
-            login: false
+            login: true
         }
     }
 
     
     render(){
-        if(this.state.login==true){
+        if(this.state.login===true){
             return (<button class="btn btn-primary">Logout</button>)
         }
         else{
