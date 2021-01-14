@@ -19,8 +19,11 @@ class SetStateClassCompo extends Component{
     }
     render(){
         return <div>
+            
             <h1>{this.state.name}</h1>
             <button class="btn btn-secondary" onClick={this.chnageName.bind(this,"Anay")}>Change Name</button>
+            <h1>{this.state.name}</h1>
+
         </div>
     }
 
