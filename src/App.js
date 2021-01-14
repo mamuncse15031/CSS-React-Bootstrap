@@ -3,6 +3,7 @@ import Welcome from './mycomponents/Welcome'
 import Arrow from './mycomponents/Arrow'
 import StateObj from './mycomponents/StateObjClass'
 import SetStateClassCompo from './mycomponents/SetStateClassCompo';
+import Condition1Class from './mycomponents/Condition1Class'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Arrow></Arrow>
       <StateObj></StateObj>
       <SetStateClassCompo></SetStateClassCompo>
+      <Condition1Class></Condition1Class>
       
     </div>
   );
