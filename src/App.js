@@ -1,7 +1,7 @@
 import './App.css';
 import Welcome from './mycomponents/Welcome'
 import Arrow from './mycomponents/Arrow'
-import StateObj from './mycomponents/StateObj'
+import StateObj from './mycomponents/StateObjClass'
 
 function App() {
   return (
