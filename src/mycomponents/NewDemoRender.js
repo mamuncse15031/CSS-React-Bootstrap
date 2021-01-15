@@ -7,7 +7,10 @@ class NewDemoRender extends Component {
     change(){
         var container = document.getElementById("myid")
         var element = <h1>My name is Shuvo, I am from React Dom</h1>
-        ReactDOM.render(element, container);
+        var callback = function(){
+            alert("Hi I am callback")
+        }
+        ReactDOM.render(element, container, callback)
     }
 
     render() {
