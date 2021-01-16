@@ -16,16 +16,22 @@ class Form extends Component {
         this.setState({[myName]:myValue})
 
     }
+    onSubmitHandler=()=>{
+        alert(this.state.username)
+    }
 
 
     render() {
         return (
             <div>
+                <form onSubmit = {this.onSubmitHandler}>
                 <h3>My First Form</h3>
                 <input name="username" onChange={this.onChangeHandler} type="text" placeholder="Enter Your Name"></input>
                 <br></br>
                 <input type="submit" value="Submit"></input>
                 <p>{this.state.username}</p>
+                </form>
+                
             </div>
         );
     }
