@@ -6,28 +6,26 @@ class Form extends Component {
         super()
 
         this.state = {
-            name: " "
+            username: " "
         }
     }
 
     onChangeHandler=(event)=>{
-
-        var newName = event.target.value
-        this.setState({name:newName})
-
+        var myName = event.target.name
+        var myValue = event.target.value
+        this.setState({[myName]:myValue})
 
     }
-
 
 
     render() {
         return (
             <div>
                 <h3>My First Form</h3>
-                <input onChange={this.onChangeHandler} type="text" placeholder="Enter Your Name"></input>
+                <input name="username" onChange={this.onChangeHandler} type="text" placeholder="Enter Your Name"></input>
                 <br></br>
                 <input type="submit" value="Submit"></input>
-                <p>{this.state.name}</p>
+                <p>{this.state.username}</p>
             </div>
         );
     }
