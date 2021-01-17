@@ -4,7 +4,7 @@ class TextArea extends Component {
     render() {
         return (
             <div>
-                
+                <textarea value="My Text"></textarea>
             </div>
         );
     }
