@@ -8,8 +8,9 @@ import Condition2ElementClass from './mycomponents/Condition2ElementClass'
 import Refresh from './mycomponents/Refresh'
 import NewDemoRender from './mycomponents/NewDemoRender'
 import NewDemoHydrate from './mycomponents/NewDemoHydrate'
-import DemoFindDomeNode from './mycomponents/DemoFindDomeNode'*/
-import Form from './mycomponents/Form'
+import DemoFindDomeNode from './mycomponents/DemoFindDomeNode'
+import Form from './mycomponents/Form'*/
+import SignupForm from './mycomponents/SignupForm'
 
 
 function App() {
@@ -25,9 +26,11 @@ function App() {
       <Refresh></Refresh>
       <NewDemoRender></NewDemoRender>
       <NewDemoHydrate></NewDemoHydrate> 
-      <DemoFindDomeNode></DemoFindDomeNode>*/}
+      <DemoFindDomeNode></DemoFindDomeNode>
 
-      <Form></Form>
+      <Form></Form>*/} 
+
+      <SignupForm></SignupForm>
 
       
       
