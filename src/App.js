@@ -1,4 +1,5 @@
 import './App.css';
+import Select from './mycomponents/Select';
 /*import Welcome from './mycomponents/Welcome'
 import Arrow from './mycomponents/Arrow'
 import StateObj from './mycomponents/StateObjClass'
@@ -33,6 +34,7 @@ function App() {
 
       <SignupForm></SignupForm>
       <TextArea></TextArea>
+      <Select></Select>
 
       
       
