@@ -38,10 +38,10 @@ class SignupForm extends Component {
 
                     <input  name="submit" type="submit" value="Submit"></input>
                 </form>
-                <p>{this.state.fname}</p>
-                <p>{this.state.lname}</p>
-                <p>{this.state.email}</p>
-                <p>{this.state.mobile}</p>
+                <p>First Name: {this.state.fname}</p>
+                <p>Last Name: {this.state.lname}</p>
+                <p>Email: {this.state.email}</p>
+                <p>Mobile Phone: {this.state.mobile}</p>
             </div>
         );
     }
