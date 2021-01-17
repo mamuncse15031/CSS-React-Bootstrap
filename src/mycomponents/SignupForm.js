@@ -18,14 +18,43 @@ class SignupForm extends Component {
         var inputValue = event.target.value;
 
         this.setState({[inputName]:inputValue})
+
+        if(inputName==="fname"){
+
+            var fnamepattern = /^[A-Za-z]+$/;
+            if(!fnamepattern.test(inputValue)){
+                this.setState({fname:"First name is not valid"})
+            }
+
+        }
+        if(inputName==="lname"){
+            var lnamepattern = /^[A-Za-z]+$/;
+            if(!lnamepattern.test(inputValue)){
+                this.setState({lname:"Last name is not valid"})
+            }
+        }
+        if(inputName==="email"){
+            var emailPattern = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            if(!emailPattern.test(inputValue)){
+                this.setState({email:"Email is not valid"})
+            }
+            
+        }
+        if(inputName==="mobile"){
+            var mobilePattern = /^\d{11}$/;
+            if(!mobilePattern.test(inputValue)){
+                this.setState({mobile:"Mobile Number is not valid"})
+            }
+            
+        }
     }
-    onSubmitHandler=()=>{
+    /*onSubmitHandler=()=>{
         alert(this.state.fname)
         alert(this.state.lname)
         alert(this.state.email)
         alert(this.state.mobile)
 
-    }
+    }*/
 
     render() {
         return (
