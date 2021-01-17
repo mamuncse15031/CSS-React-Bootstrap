@@ -11,6 +11,7 @@ import NewDemoHydrate from './mycomponents/NewDemoHydrate'
 import DemoFindDomeNode from './mycomponents/DemoFindDomeNode'
 import Form from './mycomponents/Form'*/
 import SignupForm from './mycomponents/SignupForm'
+import TextArea from './mycomponents/TextArea';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Form></Form>*/} 
 
       <SignupForm></SignupForm>
+      <TextArea></TextArea>
 
       
       
