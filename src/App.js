@@ -1,4 +1,5 @@
 import './App.css';
+import List from './mycomponents/List';
 import Select from './mycomponents/Select';
 /*import Welcome from './mycomponents/Welcome'
 import Arrow from './mycomponents/Arrow'
@@ -35,6 +36,7 @@ function App() {
       <SignupForm></SignupForm>
       <TextArea></TextArea>
       <Select></Select>
+      <List></List>
 
       
       
