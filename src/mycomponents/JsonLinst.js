@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 
 class JsonLinst extends Component {
 
-    dataItem=(data)=>{
-        return <option>{data.zip}</option>
+    dataItemCity=(dataCity)=>{
+        return <option>{dataCity.city}</option>
+        
+    }
+    dataItemZip=(dataZip)=>{
+        return <option>{dataZip.zip}</option>
         
     }
 
@@ -23,13 +27,18 @@ class JsonLinst extends Component {
                 zip: 1900
             }
         ]
-        const listItem = list.map(this.dataItem)
+        const listItemCity = list.map(this.dataItemCity)
+        const listItemZip = list.map(this.dataItemZip)
 
 
         return (
             <div>
                 <select>
-                    {listItem}
+                    {listItemCity}
+                </select>
+                <br></br>
+                <select>
+                    {listItemZip}
                 </select>
             </div>
         );
