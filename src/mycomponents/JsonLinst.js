@@ -36,7 +36,6 @@ class JsonLinst extends Component {
                 <select>
                     {listItemCity}
                 </select>
-                <br></br>
                 <select>
                     {listItemZip}
                 </select>
