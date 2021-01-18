@@ -4,7 +4,7 @@ class List extends Component {
 
 
     itemData=(a)=>{
-        return <li>{a}</li>
+        return <option>{a}</option>
     }
 
     render() {
@@ -13,9 +13,9 @@ class List extends Component {
         const listItem = myList.map(this.itemData)
         return (
             <div>
-                <ol>
+                <select>
                     {listItem}
-                </ol>
+                </select>
             </div>
         );
     }
