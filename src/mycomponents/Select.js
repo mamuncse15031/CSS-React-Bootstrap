@@ -9,20 +9,25 @@ class Select extends Component {
             city1: 'Dhaka',
             city2: 'Rangpr',
             city3: 'Rajshahi',
-            city4: 'Khulna'
+            city4: 'Khulna',
+            selected: " "
         }
+    }
+
+    onChangeHandler=(event)=>{
+        var selectedValue= event.target.value;
+        this.setState({selected:selectedValue})
     }
     render() {
         return (
             <div>
-                <form>
-                <Select value="City">
+                <select onChange={this.onChangeHandler} value={this.state.selected}>
                     <option>{this.state.city1}</option>
                     <option>{this.state.city2}</option>
                     <option>{this.state.city3}</option>
                     <option>{this.state.city4}</option>
-                </Select>
-                </form>
+                </select>
+                <p>Selected Option: {this.state.selected}</p>
             </div>
         );
     }
