@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class JsonLinst extends Component {
 
     dataItem=(data)=>{
-        return <option>{data}</option>
+        return <option>{data.zip}</option>
+        
     }
 
 
